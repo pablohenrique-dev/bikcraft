@@ -17,8 +17,9 @@
             <a href="./">
                 <img class="logo" src="./img/bikcraft.svg" alt="Logo">
             </a>
-            <nav aria-label="primaria">
-                <ul class="header-menu">
+            <nav id="nav" aria-label="primaria">
+                <button aria-label="Abrir menu" id="btn-mobile" aria-expanded="false" aria-haspopup="true" aria-controls="header-menu"><span id="hamburguer"></span></button>
+                <ul class="header-menu" role="menu">
                     <li><a href="./bicicletas.html">Bicicletas</a></li>
                     <li><a href="./seguros.html">Seguros</a></li>
                     <li><a href="./contato.html">Contato</a></li>
@@ -26,6 +27,8 @@
             </nav>
         </div>
     </header>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
