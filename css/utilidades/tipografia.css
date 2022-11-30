@@ -50,12 +50,12 @@
     font: 500 2rem/1.25 "Roboto", sans-serif;
 }
 
-.font-1-xxl {
+.font-1-xxl, .h1 {
     font: 600 4rem/1.125 "Poppins", sans-serif;
 }
 
 @media (max-width: 1200px) {
-    .font-1-xxl {
+    .font-1-xxl, .h1 {
         font-size: 3rem;
     }
 
@@ -69,5 +69,9 @@
     .font-1-xl,
     .font-2-xl {
         font-size: 1.5rem;
+    }
+
+    .font-1-xxl{
+        font-size: 2rem;
     }
 }
