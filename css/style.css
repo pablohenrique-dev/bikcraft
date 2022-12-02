@@ -11,6 +11,9 @@
 @import "./home/depoimento.css";
 @import "./seguros/seguros.css";
 
+/*Formulário*/
+@import "./utilidades/formulario.css";
+
 /*Página de Termos*/
 @import "./termos/termos.css";
 
@@ -24,3 +27,10 @@
 /*Single Bicicletas*/
 @import "./bicicleta/bicicleta.css";
 @import "./bicicleta/seguro.css";
+
+/*Página contato*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+/*Página contato*/
+@import "./orcamento/orcamento.css";
