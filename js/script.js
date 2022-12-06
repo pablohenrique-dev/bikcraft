@@ -59,7 +59,7 @@ function initPerguntaAtiva() {
 }
 initPerguntaAtiva();
 
-function initGaleriaBicicletas() {
+function initGaleriaBicicleta() {
     const galeria = document.querySelectorAll('.bicicleta-imagens img');
     const galeriaContainer = document.querySelector('.bicicleta-imagens');
 
@@ -75,4 +75,4 @@ function initGaleriaBicicletas() {
 
     galeria.forEach(eventosGaleria);
 }
-initGaleriaBicicletas();
+initGaleriaBicicleta();
