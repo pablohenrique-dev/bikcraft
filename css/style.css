@@ -34,3 +34,6 @@
 
 /*Página contato*/
 @import "./orcamento/orcamento.css";
+
+/*Animação CSS*/
+@import "./utilidades/animacao.css";
